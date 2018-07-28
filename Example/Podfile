@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DCCJConfig_Example' do
+  pod 'DCCJConfig', :path => '../'
+
+  target 'DCCJConfig_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
