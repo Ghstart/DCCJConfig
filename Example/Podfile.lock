@@ -1,0 +1,16 @@
+PODS:
+  - DCCJConfig (0.1.0)
+
+DEPENDENCIES:
+  - DCCJConfig (from `../`)
+
+EXTERNAL SOURCES:
+  DCCJConfig:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DCCJConfig: fa42e6e8be7baa0efe94020ef82cf9f470f5cfb6
+
+PODFILE CHECKSUM: a495ac25a43f15a4dd0f626ef7584f77a3d1cdd2
+
+COCOAPODS: 1.5.3

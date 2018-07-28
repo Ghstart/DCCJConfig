@@ -1,0 +1,22 @@
+{
+  "name": "DCCJConfig",
+  "version": "0.1.0",
+  "summary": "A short description of DCCJConfig.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ghstart/DCCJConfig",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ghstart": "gonghuan2020@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Ghstart/DCCJConfig.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DCCJConfig/Classes/**/*"
+}
