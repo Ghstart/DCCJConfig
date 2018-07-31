@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DCCJConfig'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Global config and setting are here.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,14 @@ Global config and setting are here used by DCCJ
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'DCCJConfig/Classes/**/*'
+  
+  s.subspec 'Result' do |a|
+      a.source_files = 'DCCJConfig/Classes/Result/**/*'
+  end
+  
+  s.subspec 'DataManagerError' do |a|
+      a.source_files = 'DCCJConfig/Classes/DataManagerError/**/*'
+  end
   
   # s.resource_bundles = {
   #   'DCCJConfig' => ['DCCJConfig/Assets/*.png']

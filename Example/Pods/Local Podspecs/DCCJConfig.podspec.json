@@ -1,8 +1,8 @@
 {
   "name": "DCCJConfig",
   "version": "0.1.0",
-  "summary": "A short description of DCCJConfig.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Global config and setting are here.",
+  "description": "Global config and setting are here used by DCCJ",
   "homepage": "https://github.com/Ghstart/DCCJConfig",
   "license": {
     "type": "MIT",
@@ -16,7 +16,17 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "DCCJConfig/Classes/**/*"
+  "source_files": "DCCJConfig/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Result",
+      "source_files": "DCCJConfig/Classes/Result/**/*"
+    },
+    {
+      "name": "DataManagerError",
+      "source_files": "DCCJConfig/Classes/DataManagerError/**/*"
+    }
+  ]
 }
