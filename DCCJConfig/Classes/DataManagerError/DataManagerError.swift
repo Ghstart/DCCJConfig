@@ -15,7 +15,7 @@ public enum DataManagerError: Error {
     case failedRequest                                  // 请求失败
     case invalidResponse                                // 响应失败
     case unknow                                         // 未知错误
-    case customError(message: String, errCode: Int)     // 自定义错误
+    case customError(message: String)                   // 自定义错误
     
     public var errorMessage: String {
         switch self {
@@ -25,26 +25,9 @@ public enum DataManagerError: Error {
             return "响应失败"
         case .unknow:
             return "未知错误"
-        case .customError(let message, _):
+        case .customError(let message):
             return message
         }
-    }
-    
-    public var errorCode: Int {
-        switch self {
-        case .failedRequest:
-            return -1024
-        case .invalidResponse:
-            return -1025
-        case .unknow:
-            return -1026
-        case .customError(_, let code):
-            return code
-        }
-    }
-    
-    public func error() -> NSError {
-        return NSError(domain: self.errorMessage, code: self.errorCode, userInfo: nil)
     }
 }
 
