@@ -7,18 +7,27 @@
 //
 
 import UIKit
+import DCCJConfig
+
+class User: Codable {}
+
+class UserLoader {
+    func loadUser(withID id: Int) -> Future<User> {
+        return Promise<User>()
+    }
+}
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let user = UserLoader()
+        user.loadUser(withID: 123).observe { (result) in
+            
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
 }
 

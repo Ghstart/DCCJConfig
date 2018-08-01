@@ -27,6 +27,10 @@
     {
       "name": "DataManagerError",
       "source_files": "DCCJConfig/Classes/DataManagerError/**/*"
+    },
+    {
+      "name": "Promise",
+      "source_files": "DCCJConfig/Classes/Promise/**/*"
     }
   ]
 }
