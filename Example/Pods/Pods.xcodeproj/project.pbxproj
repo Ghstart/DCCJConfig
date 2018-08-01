@@ -40,11 +40,11 @@
 /* Begin PBXFileReference section */
 		01A71D880E6A343EBB3367F2B26A3ABD /* Pods-DCCJConfig_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCCJConfig_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		01AB961AEDF0A7BD46D257B1A13F3C1B /* Pods-DCCJConfig_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DCCJConfig_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		045BBF9E58C59065B96A014E7B4D6A0A /* DCCJConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DCCJConfig.framework; path = DCCJConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		045BBF9E58C59065B96A014E7B4D6A0A /* DCCJConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B27D49F30DE99879496BE2B09E88DFF /* DCCJConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJConfig-dummy.m"; sourceTree = "<group>"; };
 		128035E8BA07676167341B1CFBE28942 /* Pods-DCCJConfig_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCCJConfig_Example.release.xcconfig"; sourceTree = "<group>"; };
 		14D4CADA641FD160686CD5D405A4A6BD /* Pods-DCCJConfig_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DCCJConfig_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1ACA797A22FB1010BCA473157C30D256 /* DCCJConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DCCJConfig.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1ACA797A22FB1010BCA473157C30D256 /* DCCJConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DCCJConfig.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1AE7D92DCEB9EC6D28C5D11755B32D7E /* Pods-DCCJConfig_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DCCJConfig_Tests-resources.sh"; sourceTree = "<group>"; };
 		336B2AD0C656641C327039EF64B5DB77 /* Pods-DCCJConfig_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DCCJConfig_Example-umbrella.h"; sourceTree = "<group>"; };
 		34220B196D04FBFE4F4A906110BE9461 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,17 +60,17 @@
 		7C512F58B2E67D71BDA1A978EAE36E1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8825F30BD361FC1D5DF9A763A48E14F1 /* Pods-DCCJConfig_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DCCJConfig_Example-dummy.m"; sourceTree = "<group>"; };
 		8AFB63C2A314278ACA5C22FC055198F5 /* Pods-DCCJConfig_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DCCJConfig_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97AEF5D4D0219DCF12D1E030EB1BEF44 /* Pods-DCCJConfig_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DCCJConfig_Tests-dummy.m"; sourceTree = "<group>"; };
 		9BE15E898E6B5A328AA20147A77E738A /* Pods-DCCJConfig_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCCJConfig_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9EBE3204DCBACE1B40035051819A8A81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9EBE3204DCBACE1B40035051819A8A81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9ED3BCB00F844EA8397D592834761C43 /* DataManagerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataManagerError.swift; sourceTree = "<group>"; };
 		B4AEA233365D0FEE1AB3D44AC476C192 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		B986A507F06D6F0964AA29E2EA19DE2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD5D93AF9074D88B435C0B6E514814DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BD5D93AF9074D88B435C0B6E514814DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CF1B78ADEE701A290050218C7F65FD3F /* Pods-DCCJConfig_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DCCJConfig_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CFAD6F460910083A28169C33C5B3B5A7 /* Pods_DCCJConfig_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DCCJConfig_Example.framework; path = "Pods-DCCJConfig_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE04B6E6F85EB7AEB2BCC6264CA311AD /* Pods_DCCJConfig_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DCCJConfig_Tests.framework; path = "Pods-DCCJConfig_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAD6F460910083A28169C33C5B3B5A7 /* Pods_DCCJConfig_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCCJConfig_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE04B6E6F85EB7AEB2BCC6264CA311AD /* Pods_DCCJConfig_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCCJConfig_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F292FFE96BA369DC705A55242707DFA2 /* Pods-DCCJConfig_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCCJConfig_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F80BDD7CC1D57E5B1BEBB02DEC83045A /* Pods-DCCJConfig_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DCCJConfig_Example-resources.sh"; sourceTree = "<group>"; };
 		FC0684A066654663A4FBCE4051BFB0B3 /* DCCJConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJConfig-prefix.pch"; sourceTree = "<group>"; };
@@ -338,7 +338,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -723,6 +723,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

@@ -11,7 +11,7 @@ import Foundation
 /*
  ** 返回的数据类型
  */
-public enum Result<Value, Error: Swift.Error> {
+public enum Result<Value> {
     case success(Value)
     case failure(Error)
 }
