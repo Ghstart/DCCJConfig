@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DCCJConfig'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'Global config and setting are here.'
 
 # This description is used to generate tags and improve search results.
@@ -36,12 +36,8 @@ Global config and setting are here used by DCCJ
       a.source_files = 'DCCJConfig/Classes/Result/**/*'
   end
   
-  s.subspec 'DataManagerError' do |a|
-      a.source_files = 'DCCJConfig/Classes/DataManagerError/**/*'
-  end
-  
-  s.subspec 'Promise' do |a|
-      a.source_files = 'DCCJConfig/Classes/Promise/**/*'
+  s.subspec 'DataManagerError' do |as|
+      as.source_files = 'DCCJConfig/Classes/DataManagerError/**/*'
   end
   
   # s.resource_bundles = {

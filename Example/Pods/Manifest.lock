@@ -1,10 +1,8 @@
 PODS:
   - DCCJConfig (0.1.5):
     - DCCJConfig/DataManagerError (= 0.1.5)
-    - DCCJConfig/Promise (= 0.1.5)
     - DCCJConfig/Result (= 0.1.5)
   - DCCJConfig/DataManagerError (0.1.5)
-  - DCCJConfig/Promise (0.1.5)
   - DCCJConfig/Result (0.1.5)
 
 DEPENDENCIES:
@@ -15,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DCCJConfig: 07ded700345de595add9882cda638a708da4b63f
+  DCCJConfig: ed4b583f0d0609d51f30188784853906d33c5acb
 
 PODFILE CHECKSUM: a495ac25a43f15a4dd0f626ef7584f77a3d1cdd2
 
