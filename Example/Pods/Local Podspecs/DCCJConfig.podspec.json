@@ -1,6 +1,6 @@
 {
   "name": "DCCJConfig",
-  "version": "0.1.5",
+  "version": "0.1.8",
   "summary": "Global config and setting are here.",
   "description": "Global config and setting are here used by DCCJ",
   "homepage": "https://github.com/Ghstart/DCCJConfig",
@@ -13,12 +13,11 @@
   },
   "source": {
     "git": "https://github.com/Ghstart/DCCJConfig.git",
-    "tag": "0.1.5"
+    "tag": "0.1.8"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "DCCJConfig/Classes/**/*",
   "subspecs": [
     {
       "name": "Result",
