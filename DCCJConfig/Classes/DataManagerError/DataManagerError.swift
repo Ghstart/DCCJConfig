@@ -59,7 +59,7 @@ public enum DataManagerError: Error {
         case .unknow:
             return "未知错误"
         case .customError(let message):
-            return message.message ?? "未知错误"
+            return message.message
         case .systemError(let e):
             return e.localizedDescription
         }
